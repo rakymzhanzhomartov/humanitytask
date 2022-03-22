@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "HumanityTask"
+include ':app'
+include ':domain'
+include ':data'
+include ':libraries'
+include ':libraries:library-logger'
+include ':libraries:logger-android'
+include ':testing'
+include ':testing:data-factory'

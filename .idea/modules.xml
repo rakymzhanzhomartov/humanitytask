@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HumanityTask.iml" filepath="$PROJECT_DIR$/.idea/modules/HumanityTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HumanityTask.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HumanityTask.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/HumanityTask.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/HumanityTask.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/HumanityTask.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/HumanityTask.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/HumanityTask.libraries.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/HumanityTask.libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/library-logger/HumanityTask.libraries.library-logger.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/library-logger/HumanityTask.libraries.library-logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/logger-android/HumanityTask.libraries.logger-android.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/logger-android/HumanityTask.libraries.logger-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testing/HumanityTask.testing.iml" filepath="$PROJECT_DIR$/.idea/modules/testing/HumanityTask.testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testing/data-factory/HumanityTask.testing.data-factory.iml" filepath="$PROJECT_DIR$/.idea/modules/testing/data-factory/HumanityTask.testing.data-factory.iml" />
+    </modules>
+  </component>
+</project>

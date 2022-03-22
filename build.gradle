@@ -1,0 +1,45 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+
+        LIFECYCLE = '2.3.1'
+
+        KOTLIN_VERSION = '1.4.31'
+        KOTLIN_COROUTINES_CORE = '1.4.3'
+
+        GOOGLE_GSON = '2.8.6'
+        GOOGLE_NAVIGATION_VERSION = '2.3.4'
+
+        OKHTTP = '4.9.1'
+        KOIN = '3.1.5'
+        RETROFIT = '2.9.0'
+        COROUTINES = '1.4.2-native-mt'
+
+        JUNIT = '4.13.2'
+        ASSERT_J = '3.19.0'
+
+        submodulesPlatform = [
+                domain: ':domain',
+                data  : ':data'
+        ]
+
+        submodulesLibraries = [
+                logger       : ':libraries:library-logger',
+                loggerAndroid: ':libraries:logger-android'
+        ]
+
+        submodulesTest = [
+                dataFactory: ':testing:data-factory'
+        ]
+    }
+}
+plugins {
+    id 'com.android.application' version '7.1.2' apply false
+    id 'com.android.library' version '7.1.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
